@@ -44,3 +44,36 @@
 .carousel-caption{
   bottom: 5rem;
 }
+
+/* INSTRUCTORS */
+section#instructors .card{
+  transition: transform 0.5s;
+}
+
+section#instructors .card:hover{
+  transform: scale(1.05);
+}
+
+section#instructors .socials i{
+  transition: opacity 0.5s;
+}
+
+section#instructors .socials i:hover{
+  opacity: 0.5;
+}
+
+/* STUDENTS */
+
+section#students img{
+  max-width: 400px;
+  min-width: 200px;
+}
+
+/* COURSES */
+
+section#courses .nav-link.active {
+  background-color: var(--red);
+}
+section#courses .nav-link {
+  color: white;
+}
